@@ -1,0 +1,29 @@
+/*определяет как буут отображены элемнты HTML*/
+*{
+	margin: 0;?/*устнавливает все свойства отступов в одном объявлении*/
+} 
+.section { 
+	display: flex; 
+	background-color:white ;
+}
+.header {
+	color:white;
+	background-color: grey; /*определяет фоновый цвет элемента*/
+	height: 100px; /*устанавливает высоту элемента*/
+}
+.main {
+	margin-left: calc((100% - 750px)/2); /*отступы с левой стороны*/
+	background-color: #FFEBCD;
+	width: 70%; /*устанавлвает ширину элемента*/ 
+	height: 500px;
+}
+.side {
+	background-color: white;
+	width: 30%;
+	height: 500px;
+}
+.footer {
+	color:white; /*цвет текста*/
+	background-color: #5F9EA0;
+	height: 100px;
+}
