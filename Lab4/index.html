@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div  class="container text-center">
+      <button type="button" onclick="LoadingScreen()" class="btn btn-outline-success">
+        Загрузить данные
+      </button>
+      <h2 id="loading"></h2>
+    </div>
+    
+    <div id="display" style="display: none">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="card-deck">
+          <div class="card">
+            <img id="man0" src="" class="card-img-top" />
+            <div class="card-body">
+              <div class="formElem">
+              <div class="card-text">
+                  <label class="col-form-label" >Gender</label> 
+                  <input
+                  type="text" id="gender0"></input>
+                  <label class="col-form-label" >Name</label>
+                  <input
+                  type="text" id="name0"></input>
+                  <label class="col-form-label" >Adress</label>
+                  <input
+                  type="text" id="adress0"></input>
+                  <label class="col-form-label" >Email</label>
+                  <input
+                  type="text" id="email0"></input>
+                  <label class="col-form-label" >Age</label>
+                  <input
+                  type="text" id="age0"></input>
+                  <label class="col-form-label" >Phone</label>
+                  <input
+                  type="text" id="phone0"></input>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="card">
+              <img id="man1" src="" class="card-img-top" />
+              <div class="card-body">
+                <div class="formElem">
+                <div class="card-text">
+                    <label class="col-form-label" >Gender</label> 
+                    <input
+                    type="text" id="gender1"></input>
+                    <label class="col-form-label" >Name</label>
+                    <input
+                    type="text" id="name1"></input>
+                    <label class="col-form-label" >Adress</label>
+                    <input
+                    type="text" id="adress1"></input>
+                    <label class="col-form-label" >Email</label>
+                    <input
+                    type="text" id="email1"></input>
+                    <label class="col-form-label" >Age</label>
+                    <input
+                    type="text" id="age1"></input>
+                    <label class="col-form-label" >Phone</label>
+                    <input
+                    type="text" id="phone1"></input>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="card">
+                <img id="man2" src="" class="card-img-top" />
+                <div class="card-body">
+                  <div class="formElem">
+                  <div class="card-text">
+                      <label class="col-form-label" >Gender</label> 
+                      <input
+                      type="text" id="gender2"></input>
+                      <label class="col-form-label" >Name</label>
+                      <input
+                      type="text" id="name2"></input>
+                      <label class="col-form-label" >Adress</label>
+                      <input
+                      type="text" id="adress2"></input>
+                      <label class="col-form-label" >Email</label>
+                      <input
+                      type="text" id="email2"></input>
+                      <label class="col-form-label" >Age</label>
+                      <input
+                      type="text" id="age2"></input>
+                      <label class="col-form-label" >Phone</label>
+                      <input
+                      type="text" id="phone2"></input>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="card">
+                  <img id="man3" src="" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="formElem">
+                    <div class="card-text">
+                        <label class="col-form-label" >Gender</label> 
+                        <input
+                        type="text" id="gender3"></input>
+                        <label class="col-form-label" >Name</label>
+                        <input
+                        type="text" id="name3"></input>
+                        <label class="col-form-label" >Adress</label>
+                        <input
+                        type="text" id="adress3"></input>
+                        <label class="col-form-label" >Email</label>
+                        <input
+                        type="text" id="email3"></input>
+                        <label class="col-form-label" >Age</label>
+                        <input
+                        type="text" id="age3"></input>
+                        <label class="col-form-label" >Phone</label>
+                        <input
+                        type="text" id="phone3"></input>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="card">
+                    <img id="man4" src="" class="card-img-top" />
+                    <div class="card-body">
+                      <div class="formElem">
+                      <div class="card-text">
+                          <label class="col-form-label" >Gender</label> 
+                          <input
+                          type="text" id="gender4"></input>
+                          <label class="col-form-label" >Name</label>
+                          <input
+                          type="text" id="name4"></input>
+                          <label class="col-form-label" >Adress</label>
+                          <input
+                          type="text" id="adress4"></input>
+                          <label class="col-form-label" >Email</label>
+                          <input
+                          type="text" id="email4"></input>
+                          <label class="col-form-label" >Age</label>
+                          <input
+                          type="text" id="age4"></input>
+                          <label class="col-form-label" >Phone</label>
+                          <input
+                          type="text" id="phone4"></input>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="card-deck">
+            <div class="card">
+              <img id="man5" src="" class="card-img-top" />
+              <div class="card-body">
+                <div class="formElem">
+                <div class="card-text">
+                    <label class="col-form-label" >Gender</label> 
+                    <input
+                    type="text" id="gender5"></input>
+                    <label class="col-form-label" >Name</label>
+                    <input
+                    type="text" id="name5"></input>
+                    <label class="col-form-label" >Adress</label>
+                    <input
+                    type="text" id="adress5"></input>
+                    <label class="col-form-label" >Email</label>
+                    <input
+                    type="text" id="email5"></input>
+                    <label class="col-form-label" >Age</label>
+                    <input
+                    type="text" id="age5"></input>
+                    <label class="col-form-label" >Phone</label>
+                    <input
+                    type="text" id="phone5"></input>
+                </div>
+              </div>
+              </div>
+            </div>
+  
+            <div class="card">
+                <img id="man6" src="" class="card-img-top" />
+                <div class="card-body">
+                  <div class="formElem">
+                  <div class="card-text">
+                      <label class="col-form-label" >Gender</label> 
+                      <input
+                      type="text" id="gender6"></input>
+                      <label class="col-form-label" >Name</label>
+                      <input
+                      type="text" id="name6"></input>
+                      <label class="col-form-label" >Adress</label>
+                      <input
+                      type="text" id="adress6"></input>
+                      <label class="col-form-label" >Email</label>
+                      <input
+                      type="text" id="email6"></input>
+                      <label class="col-form-label" >Age</label>
+                      <input
+                      type="text" id="age6"></input>
+                      <label class="col-form-label" >Phone</label>
+                      <input
+                      type="text" id="phone6"></input>
+                  </div>
+                </div>
+                </div>
+              </div>
+  
+              <div class="card">
+                  <img id="man7" src="" class="card-img-top" />
+                  <div class="card-body">
+                    <div class="formElem">
+                    <div class="card-text">
+                        <label class="col-form-label" >Gender</label> 
+                        <input
+                        type="text" id="gender7"></input>
+                        <label class="col-form-label" >Name</label>
+                        <input
+                        type="text" id="name7"></input>
+                        <label class="col-form-label" >Adress</label>
+                        <input
+                        type="text" id="adress7"></input>
+                        <label class="col-form-label" >Email</label>
+                        <input
+                        type="text" id="email7"></input>
+                        <label class="col-form-label" >Age</label>
+                        <input
+                        type="text" id="age7"></input>
+                        <label class="col-form-label" >Phone</label>
+                        <input
+                        type="text" id="phone7"></input>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+  
+                <div class="card">
+                    <img id="man8" src="" class="card-img-top" />
+                    <div class="card-body">
+                      <div class="formElem">
+                      <div class="card-text">
+                          <label class="col-form-label" >Gender</label> 
+                          <input
+                          type="text" id="gender8"></input>
+                          <label class="col-form-label" >Name</label>
+                          <input
+                          type="text" id="name8"></input>
+                          <label class="col-form-label" >Adress</label>
+                          <input
+                          type="text" id="adress8"></input>
+                          <label class="col-form-label" >Email</label>
+                          <input
+                          type="text" id="email8"></input>
+                          <label class="col-form-label" >Age</label>
+                          <input
+                          type="text" id="age8"></input>
+                          <label class="col-form-label" >Phone</label>
+                          <input
+                          type="text" id="phone8"></input>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+  
+                  <div class="card">
+                      <img id="man9" src="" class="card-img-top" />
+                      <div class="card-body">
+                        <div class="formElem">
+                        <div class="card-text">
+                          <div>
+                            <label class="col-form-label" >Gender</label> 
+                            <input
+                            type="text" id="gender9"></input></div>
+                            <label class="col-form-label" >Name</label>
+                            <input
+                            type="text" id="name9"></input>
+                            <label class="col-form-label" >Adress</label>
+                            <input
+                            type="text" id="adress9"></input>
+                            <label class="col-form-label" >Email</label>
+                            <input
+                            type="text" id="email9"></input>
+                            <label class="col-form-label" >Age</label>
+                            <input
+                            type="text" id="age9"></input>
+                            <label class="col-form-label" >Phone</label>
+                            <input
+                            type="text" id="phone9"></input>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</html>
