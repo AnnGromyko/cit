@@ -1,0 +1,279 @@
+<!Doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>GoogleNews</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/base-style.css">
+    
+  </head>
+  <body>
+   <!--   <div class="row">
+  <div class="col-2">   -->
+
+
+
+<!--НАЧАЛО NAVBAR===================================================================================================-->
+<!-- ШАПКА__________________________________________________________________________________________________________-->
+  <!--  <div class="header"> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+       <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <img id="icon" src="picter/menu.png" style="width:20px" class="p-0 m-0">
+       
+     </a>
+      <img src="picter/GG2.png" style="height: 40px;" class="pt-1">
+      <small class="text-muted"><font size="+2">Новости</font></small> 
+     </a>
+       <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <li>
+            <a class="navbar" href="#"> <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+            </a>
+
+
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item"> -->
+            
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          </button>
+          </ul>
+          </li>
+        </div>
+
+
+<!--КНОПКА ВЫДВИГАЮЩЕЙСЯ ПАНЕЛИ___________________________________________________________________________________-->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+
+
+<!--БОКОВАЯ ПАНЕЛЬ_________________________________________________________________________________________________-->
+           
+      <div class="dropdown-menu dropdown-dark bg-dark" aria-labelledby="navbarDropdown">
+      <h6>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/главные новости.png" style="height: 20px;">   Главные новости</h6></a> 
+        <a class="dropdown-item" href="#"><h6 class="text-muted">  <img src="picter/для вас.png" style="height: 20px;">   Для вас</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted">  <img src="picter/избранное.png" style="height: 20px;">   Избранное<img src="picter/стрелка.png" style="height: 10px;"></h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/сохранённые запросы.png" style="height: 20px;">Сохранённые запросы<img src="picter/стрелка.png" style="height: 10px;"></h6></a>
+      </h6>
+      <h6>
+      <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#"><h6 class="text-muted" ><img src="picter/россия.png" style="height: 20px;">  Россия</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/в мире.png" style="height: 20px;">   В мире</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/местные новости.png" style="height: 20px;">   Местные новости</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/бизнес.png" style="height: 20px;">   Бизнес</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/наука и техника.png" style="height: 20px;">   Наука и техника</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/развлечения.png" style="height: 20px;">   Развлечения</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/спорт.png" style="height: 20px;">   Спорт</h6></a>
+        <a class="dropdown-item" href="#"><h6 class="text-muted"><img src="picter/здоровье.png" style="height: 20px;">   Здоровье</h6></a>
+      </h6>
+
+      <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-1">Язык и регион</font></small></a>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-1">Настройки</font></small></a>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-1">Скачать приложение для Android</font><img src="picter/ссылка.png" style="height: 15px;"></small></a>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-1">Скачать приложение для IOS</font><img src="picter/ссылка.png" style="height: 15px;"></small></a>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-1">Отправить отзыв</font></small></a>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-1"><p>Справка</font><img src="picter/ссылка.png" style="height: 15px;"></p></small></a>
+          
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-2">Конфиденциальность•Условия•</font></small></a>
+        <a class="dropdown-item" href="#"><small class="text-muted"><font size="-2">Всё о Google</p></font></small></a>
+      </div>
+
+      
+
+
+<!--ПОИСК И ИКОНКИ__________________________________________________________________________________________________-->
+    
+    <select style="width: 50%" class="form-control form-control mr-auto">>
+      <option><small class="text-muted">Поиск тем, мест и источников</small></option>
+      <option><small class="text-muted"><img src="picter/Коронавирус.png" style="height: 15px;">Коронавирус</small></option>
+      <option><small class="text-muted"><img src="picter/urlgm.png" style="height: 15px;">Уральская горно-металлургическая компания</small></option>
+      <option><small class="text-muted"><img src="picter/Казахстан.png" style="height: 15px;">Казахстан</small></option>
+      <option><small class="text-muted"><img src="picter/ЧикагоБлэкхокс.png" style="height: 15px;">Чикаго Блэкхокс</small></option>
+      <option><small class="text-muted"><img src="picter/Украина.png" style="height: 15px;">Украина</small></option>
+      <option><small class="text-muted"><img src="picter/Беларусь.png" style="height: 15px;">Беларусь</small></option>
+      <option><small class="text-muted"><img src="picter/ВВП.png" style="height: 15px;">Владимир Путин</small></option>
+      <option><small class="text-muted"><img src="picter/Навальный.png" style="height: 15px;">Алексей Навальный</small></option>
+      <option><small class="text-muted"><img src="picter/Нефть.png" style="height: 15px;">Нефть</small></option>
+      <option><small class="text-muted"><img src="picter/НН.png" style="height: 15px;">Нижний Новгород</small></option>
+    </select>
+      
+    
+
+  <ul class="navbar-nav">
+    <li class="mr-2">
+      <a href="#"><img src="picter/ikon_dark.png" style="height: 35px;"></a>
+    </li>
+    <li class="mr-2">
+       <a href="#"><img src="picter/ikon.png" style="height: 35px;"></a>
+    </li>
+  </ul>
+    </nav>  
+<!-- КОНЕЦ NAVBAR================================================================================================== -->
+
+
+
+
+<!-- <div class="card w-70">
+  <div class="card-body">
+    <h5 class="card-title">Название карточки</h5>
+    <div class="modal-body">
+  <div class="container-fluid">
+    <div class="row">
+      
+      <div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
+    </div>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Кнопка</a>
+  </div>
+</div> -->
+
+    <main role="main">
+      <div class="container">
+
+<!--ПОГОДА И ОТСЫЛЛКИ____________________________________________________________________________________________-->
+      <div class="row">
+        <div class="col-md-4 order-md-2 mb-4"> <!--данный блок будет занимать 4 условных единицы из 12 в строке,
+          то есть треть ширины экрана устройства с экраном шириной от 992 пикселей-->
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">Ростовская область</span>
+            <span class="badge badge-secondary badge-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <img class="card-img-top" src="https://b.radikal.ru/b41/1911/f7/63efff3ffff7.png" align="right" width="140" height="140" />
+              </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-condensed">
+              <div>
+                <h6 class="my-0">Подробнее на</h6>
+                <small class="text-muted"><a href="#">www.weather-...</a></small>
+              </div>
+              <span class="text-muted">></span>
+            </li>
+          </ul>
+
+          <form class="card p-2">
+            <p> В новостях </p>
+            <div class="input-group">
+
+              <button type="submit" class="btn btn-light">Уральская горно-металлургическая Компания</button>
+              <button type="submit" class="btn btn-light">Украина</button>
+              <button type="submit" class="btn btn-light">Навальный</button>
+              <button type="submit" class="btn btn-light">Казахстан</button>
+              <button type="submit" class="btn btn-light">Нижний Новгород</button>
+              <button type="submit" class="btn btn-light">Авангард</button>
+              <button type="submit" class="btn btn-light">Ак Барс</button>
+              <button type="submit" class="btn btn-light">Чикаго Блэкхокс</button>
+              <button type="submit" class="btn btn-light">Ростовская область</button>
+              <button type="submit" class="btn btn-light">Александр Викторович Усс</button>
+            </div>
+          </form>
+        </div>
+       
+
+
+<!--КАРТОЧКИ С НОВОСТЯМИ____________________________________________________________________________________________-->
+      
+
+
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Заголовки</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row">
+
+
+
+                <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body">
+      <h5 class="card-title">Коронавиру: Узнайте последние новости о коронавирусе</h5>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+
+              <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body"><img class="card-img-top" src="picter/Сафронов.png" align="right"  />
+      <h5 class="card-title">Сафронова обвинили в продаже данных об операции в Сирии за $248</h5>
+      <p class="card-text">РБК - 3 часа назад</p>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+
+  <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body">
+      <img class="card-img-top" src="picter/Коронавирус.jpg" align="right">
+      <h5 class="card-title">В России зафиксирован суточный рекорд смертей пациентов с COVID-19</h5>
+      <p class="card-text">Тамблер/новости - Вчера</p>
+      <hr>
+      <p class="card-text">Lenta.ru - в России за сутки выявили рекордные 1178 смертей пациентов с COVID-19</p>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+
+  <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body">
+      <h5 class="card-title">В аэропортах Москвы задержаны или отменены более 170 рейсов</h5>
+      <p class="card-text">РИА Новости - 2 часа назад</p>
+       <hr>
+      <p class="card-text">РИА Новости - В аэропортах Москвы задержаны или отменены 174 рейса, следует из данных сервиса «Яндекс.Расписания».</p>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+
+  <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body"><img class="card-img-top" src="picter/УлОБ.png" align="right"  />
+      <h5 class="card-title">В Ульяновской области допустили продление нерабочих дней</h5>
+            <p class="card-text">Газета.Ru - 3 часа назад</p>
+            <hr>
+       <p class="card-text"> Губернатор Ульяновской области Русских допустил продление нерабочих дней после 7 ноября</p>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+
+  <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body"><img class="card-img-top" src="picter/Путин.jpg" align="right"  />
+      <h5 class="card-title">Путин назвал уникальный ресурс России </h5>
+      <p class="card-text">Вести.Ru - 7 часов назад</p>
+      <hr>
+       <p class="card-text"> Путин: углеродной нейтральности Россия достигнет с помощью лесных экосистем</p>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+
+  <div class="card w-100 mb-3"><!-- 100 это ширина в %-->
+    <div class="card-body"><img class="card-img-top" src="picter/Украинаnews.jpg" align="right"  />
+      <h5 class="card-title">В Раде возмутились отказом пускать украинцев в Грузию</h5>
+      <p class="card-text" >РБК - 6 часов назад</p>
+      <a href="#" class="btn btn-primary">Посмотреть</a>
+
+    </div>
+  </div>
+      </div>
+
+  </body>
+</html>
