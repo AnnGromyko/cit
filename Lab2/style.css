@@ -1,0 +1,34 @@
+#otvet {
+    display: none;
+} 
+
+body{
+    background: #E0FFFF;
+    text-align: center;
+}
+
+pre{
+    margin: 20px auto;
+    width: 350px;
+    padding: 25px;
+    background: #EE82EE;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+input[type = "number"]{
+    width: 40px;
+    text-align: right;
+}
+
+input[type = "button"]{
+    background: #9370DB;
+    border: none;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+input[type = "button"]:hover {
+    opacity: 0.6;
+}
